@@ -592,30 +592,6 @@ h2::after {
 }
 
 /* ================================
-   FOOTER
-   ================================ */
-footer {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  text-align: center;
-  padding: 2.5rem;
-  margin-top: 3rem;
-  border-top: 3px solid transparent;
-  border-image: linear-gradient(90deg, var(--orange), var(--pink)) 1;
-}
-
-footer p {
-  color: var(--gray);
-  margin-bottom: 0.5rem;
-}
-
-.footer-note {
-  font-size: 0.9rem;
-  font-style: italic;
-  color: #999;
-}
-
-/* ================================
    RESPONSIVE DESIGN
    ================================ */
 @media (max-width: 768px) {
@@ -662,4 +638,29 @@ footer p {
   h2 {
     font-size: 1.8rem;
   }
+
+/* ================================
+   FOOTER
+   ================================ */
+footer {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  padding: 2.5rem;
+  margin-top: 3rem;
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(90deg, var(--orange), var(--pink)) 1;
+}
+
+footer p {
+  color: var(--gray);
+  margin-bottom: 0.5rem;
+}
+
+.footer-note {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #999;
+}
+
 }
