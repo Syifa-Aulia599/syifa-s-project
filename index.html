@@ -200,7 +200,7 @@
           class="social-btn instagram">
           <span>📷</span> Instagram
         </a>
-        <a href="https://linkehttps://open.spotify.com/user/v3kktgeco1ri1r7im5629gabs?si=8533aa526ff44d66din."
+        <a href="https://open.spotify.com/user/v3kktgeco1ri1r7im5629gabs?si=ee175bf0c8104645"
           target="_blank" rel="noopener noreferrer" class="social-btn linkedin">
           <span>🎧</span> Spotify
         </a>
@@ -233,24 +233,29 @@
 
       </div>
 
-      <!-- SCRIPT DOWNLOAD CV -->
-      <script>
-        document.getElementById("downloadCV").addEventListener("click", function () {
-          // GANTI link berikut dengan link CV yang kamu upload
-          const cvURL = "assets/cv-syifa-aulia.pdf";
 
-          const link = document.createElement("a");
-          link.href = cvURL;
-          link.download = "CV-Syifa-Aulia.pdf";
-          link.click();
-        });
-      </script>
-      <!-- Footer -->
-      <footer>
-        <p>© 2025 Syifa Aulia — Dibuat dengan 💛 menggunakan HTML & CSS</p>
-        <p class="footer-note">Tugas Proyek Web Development</p>
-      </footer>
+     
+  </main>
+
+  <!-- Footer (dipisah dari contact section) -->
+  <footer>
+    <p>© 2025 Syifa Aulia — Dibuat dengan 💛 menggunakan HTML & CSS</p>
+    <p class="footer-note">Tugas Proyek Web Development</p>
+  </footer>
+
+  <!-- SCRIPT DOWNLOAD CV -->
+  <script>
+    document.getElementById("downloadCV").addEventListener("click", function () {
+      const cvURL = "assets/cv-syifa-aulia.pdf";
+      const link = document.createElement("a");
+      link.href = cvURL;
+      link.download = "CV-Syifa-Aulia.pdf";
+      link.click();
+    });
+  </script>
+
 </body>
-
+</html>
+</body>
 
 </html>
