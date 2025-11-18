@@ -646,11 +646,11 @@ footer {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   text-align: center;
-  padding: 2.5rem;
-  margin-top: 3rem;
   border-top: 3px solid transparent;
   border-image: linear-gradient(90deg, var(--orange), var(--pink)) 1;
-}
+  margin-top: 40px;
+  padding: 20px 0;
+    }
 
 footer p {
   color: var(--gray);
@@ -664,3 +664,4 @@ footer p {
 }
 
 }
+
